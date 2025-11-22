@@ -1,10 +1,12 @@
 ﻿# LIBSYNC App
 
+[![Download APK](https://img.shields.io/badge/Download-Libsync%20APK-blue?logo=android&style=for-the-badge)](https://github.com/Vaibhavp809/LIBSYNC-APP-/raw/main/Libsync%20app.apk)
+
 LIBSYNC is an Android app (APK) distributed in this repository for easy download and installation.
 
 **Download**
 - APK file: `Libsync app.apk` (stored with Git LFS in the repo root).
-- Recommended: download from the repository web UI Releases page if available, or clone with Git LFS enabled.
+- Or click the button above to download the APK directly from the repository.
 
 **Requirements**
 - Android device (Android 6.0+ recommended).
@@ -35,6 +37,9 @@ git lfs pull
 ```
 
 - If you prefer not to use Git LFS, download the APK from the Releases page (recommended for end-users).
+
+**License**
+- This repository is licensed under the MIT License — see the `LICENSE` file for details.
 
 **Support**
 - If you need installation help or run into errors, open an issue on the repository.
