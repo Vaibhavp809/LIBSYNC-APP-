@@ -1,45 +1,135 @@
-﻿# LIBSYNC App
+﻿# 📱 LibSync - Official Android App
 
-[![Download APK](https://img.shields.io/badge/Download-Libsync%20APK-blue?logo=android&style=for-the-badge)](https://github.com/Vaibhavp809/LIBSYNC-APP-/raw/main/Libsync%20app.apk)
+<div align="center">
 
-LIBSYNC is an Android app (APK) distributed in this repository for easy download and installation.
+![LibSync Logo](https://img.shields.io/badge/LibSync-v1.0-blue?style=for-the-badge&logo=android)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Android-orange?style=for-the-badge&logo=android)
 
-**Download**
-- APK file: `Libsync app.apk` (stored with Git LFS in the repo root).
-- Or click the button above to download the APK directly from the repository.
+**Your Complete Library Management Solution**
 
-**Requirements**
-- Android device (Android 6.0+ recommended).
-- If cloning the repository: `git` and `git-lfs` installed on your machine. Run `git lfs install` and `git lfs pull` after cloning.
+[![Download APK](https://img.shields.io/badge/⬇️_Download_APK-FF6B6B?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Vaibhavp809/LIBSYNC-APP-/raw/main/Official%20LibSync%20App%20version%201.0.apk)
 
-**Installation (on device)**
-1. Transfer the APK to your device (USB, cloud, or direct download on device).
-2. On the device, enable Install from Unknown Sources (or Allow this source) in Settings  Security.
-3. Using a file manager, tap the APK `Libsync app.apk` and follow the installer prompts.
-4. After installation, you can revoke Unknown Sources permission if desired.
+</div>
 
-**Installation (adb)**
-- If you have `adb` installed and the device connected with USB debugging enabled:
+---
 
+## 🚀 Quick Start
+
+### Direct Download
+Click the **Download APK** button above to get the latest version of LibSync (v1.0) directly from this repository.
+
+### Installation Steps
+
+1. **Download the APK**
+   - Click the download button above or [download directly](https://github.com/Vaibhavp809/LIBSYNC-APP-/raw/main/Official%20LibSync%20App%20version%201.0.apk)
+
+2. **Enable Unknown Sources**
+   - Go to **Settings** → **Security** (or **Privacy** on newer Android versions)
+   - Enable **"Install from Unknown Sources"** or **"Allow from this source"**
+
+3. **Install the App**
+   - Open the downloaded APK file using a file manager
+   - Tap **Install** and follow the on-screen instructions
+   - Once installed, you can revoke the Unknown Sources permission if desired
+
+4. **Launch & Enjoy!**
+   - Open LibSync from your app drawer
+   - Sign in and start managing your library
+
+---
+
+## 📋 System Requirements
+
+- **Android Version**: 6.0 (Marshmallow) or higher
+- **Storage**: ~50 MB free space
+- **Internet**: Required for full functionality
+
+---
+
+## 💻 Installation via ADB (For Developers)
+
+If you have Android Debug Bridge (ADB) installed:
+
+```bash
+adb install -r "Official LibSync App version 1.0.apk"
 ```
-adb install -r "Libsync app.apk"
-```
 
-**Notes**
-- The APK in this repository is tracked via Git LFS. To fetch the actual binary when cloning:
+---
 
-```
+## 📦 Repository Information
+
+### APK File
+- **Filename**: `Official LibSync App version 1.0.apk`
+- **Version**: 1.0
+- **Storage**: Tracked via Git LFS
+
+### Cloning the Repository
+
+If you want to clone this repository:
+
+```bash
 git clone https://github.com/Vaibhavp809/LIBSYNC-APP-.git
 cd LIBSYNC-APP-
-# ensure LFS is set up
+```
+
+**Note**: The APK is stored using Git LFS. To download the actual file:
+
+```bash
 git lfs install
 git lfs pull
 ```
 
-- If you prefer not to use Git LFS, download the APK from the Releases page (recommended for end-users).
+---
 
-**License**
-- This repository is licensed under the MIT License — see the `LICENSE` file for details.
+## ✨ Features
 
-**Support**
-- If you need installation help or run into errors, open an issue on the repository.
+- 📚 **Book Management** - Search, browse, and manage your library collection
+- 🔍 **Advanced Search** - Filter books by title, edition, and availability
+- 📊 **Copy Tracking** - View available copies for each book
+- 🔔 **Push Notifications** - Stay updated with real-time notifications
+- 📱 **Modern UI** - Clean and intuitive user interface
+- 🔐 **Secure Authentication** - Safe and secure login system
+
+---
+
+## 🛠️ Technical Details
+
+- **Framework**: React Native with Expo
+- **Backend**: Node.js with Express
+- **Database**: MongoDB
+- **Push Notifications**: Firebase Cloud Messaging (FCM)
+- **Build System**: EAS Build
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+```
+Copyright (c) 2025 Vaibhavp809
+```
+
+---
+
+## 🤝 Support
+
+- **Issues**: [Open an issue](https://github.com/Vaibhavp809/LIBSYNC-APP-/issues) on GitHub
+- **Questions**: Check the repository issues or create a new one
+
+---
+
+## 📱 Screenshots
+
+_Coming soon..._
+
+---
+
+<div align="center">
+
+**Made with ❤️ for efficient library management**
+
+⭐ Star this repo if you find it useful!
+
+</div>
